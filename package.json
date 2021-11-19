@@ -1,0 +1,17 @@
+{
+  "name": "vodafone1",
+  "version": "1.0.0",
+  "description": "Vodafone Testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "runHeadless": "./node_modules/.bin/cypress run --headless",
+    "runHeaded": "./node_modules/.bin/cypress run --headed --browser chrome "
+  },
+  "keywords": [],
+  "author": "LSanchez",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.0.0"
+  }
+}
