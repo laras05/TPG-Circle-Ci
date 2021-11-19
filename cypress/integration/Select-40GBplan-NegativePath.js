@@ -19,7 +19,7 @@ it('Select 40GB Plan-Negative Path', function() {
         .should('have.text', '$40.00')  //to validate price in sticky cart
     cy.wait(5000)
        
-    //Proceed to cart
+    //Proceed to cart.
     //validate if cart page is shown with the correct product.
     cy.contains('Continue to cart').click()
     cy.wait(5000)
