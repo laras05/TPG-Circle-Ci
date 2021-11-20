@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-//Tester should file this as defect if this test passed
+//Tester should file this as defect if this test passed.
 
 //Select any plan - negative path
 //Validate if cart page is shown with the correct product

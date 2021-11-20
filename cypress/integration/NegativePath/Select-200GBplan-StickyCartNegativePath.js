@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-//Tester should file this as defect if this test passed
+//Tester should file this as defect if this test passed.
 
 //Select any plan - negative path
 //validate if the price shown in sticky cart is same as the plan selected.

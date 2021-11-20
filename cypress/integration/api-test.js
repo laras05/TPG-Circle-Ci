@@ -1,4 +1,4 @@
-//Send a GET request to https://api-prod.prod.cms.df.services.vodafone.com.au/plan/postpaid-simo?serviceType=New.
+//Send a GET request to https://api-prod.prod.cms.df.services.vodafone.com.au/plan/postpaid-simo?serviceType=New
 
 describe('VODAFONE API', () => {
     it("GET API for VODAFONE", () => {

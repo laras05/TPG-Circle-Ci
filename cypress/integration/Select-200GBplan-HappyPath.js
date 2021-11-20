@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 
 //Select any plan - happy path.
-//validate if the price shown in sticky cart is same as the plan selected.
+//validate if the price shown in sticky cart is same as the plan selected
 it('Select 200GB Plan-Happy Path', function() {
 
     //Open Vodafone link, View Different Plans
