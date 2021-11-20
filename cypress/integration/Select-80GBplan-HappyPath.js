@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-//Select any plan - happy path
+//Select any plan - happy path.
 //validate if the price shown in sticky cart is same as the plan selected.
 it('Select 80GB Plan-Happy Path', function() {
 
