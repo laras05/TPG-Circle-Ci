@@ -1,5 +1,17 @@
 # TPG-Circle-Ci
 
+**GitHub** - https://github.com/laras05/TPG-Circle-Ci.git
+
+**Circle Ci** - https://app.circleci.com/pipelines/github/laras05/TPG-Circle-Ci?invite=true
+
+Check **TPG-Circle-Ci Pipeline 16
+Test Result:**
+
+-All Happy Path Test Case/Files displayed Passed Result.
+
+-All Negative Path Test displayed Failed Result as they are actually failed (if the test case passed, tester should file it as bug)
+
+
 **How to execute test:**
 
 We can execute Cypress Test using different methods:
@@ -19,12 +31,14 @@ If true, everytime you update the test file and save it, cypress runs all tests 
 --The Cypress test runner (Chrome) shows all the details of the test in the left side panel and the execution details on the right-hand side panel.
 7. Repeat step 6 to execute the other test files/cases
 
+
 **b. Execute Cypress Test from Terminal/CLI**
 Pre-Condition: Step 1 to 3 of letter A are already done
-In the VSC, type npx cypress run and press enter key.
---VSC will display the test result
+In the VSC, type npx cypress run and press enter key. VSC will display the test result
+
 
 **c. Execute Cypress Testin Circle Ci**
+
 **Pre-condition:** GitHub and Circleci mapping already setup
 1. Install cypress
 2. Create .circleci folder in the root level and create config.yml file
