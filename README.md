@@ -16,8 +16,8 @@ If true, everytime you update the test file and save it, cypress runs all tests 
 
 5. In the Cypress Test Runner Window, select the browser where you will run the test (ex. Chrome 96)
 6. Click the selected Test file/case on the runner window to open it in IDE and to display the test run
---The Cypress test runner (Chrome) shows all the details of the test in the left side panel and the execution details on the right-hand side panel.
-7. Repeat step 6 to execute the other test files/cases
+7. --The Cypress test runner (Chrome) shows all the details of the test in the left side panel and the execution details on the right-hand side panel.
+8. 8. Repeat step 6 to execute the other test files/cases
 
 **b. Execute Cypress Test from Terminal/CLI**
 Pre-Condition: Step 1 to 3 of letter A are already done
@@ -31,4 +31,4 @@ In the VSC, type npx cypress run and press enter key.
 3. Push the code
 4. View in Circleci dashboard the result of the test
 
-**Note: **If there are changes in the test file/case, commit and push the changes.
+**Note:** If there are changes in the test file/case, commit and push the changes.
